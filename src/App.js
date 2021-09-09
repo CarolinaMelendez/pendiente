@@ -4,13 +4,12 @@ const name_item = document.querySelector("#text-input");
 const form = document.querySelector("#pendiente-form");
 
 form.addEventListener("submit",event=>{
-
+    category = "Work"
     text = name_item.value;
-    alert( "hiciste click en button" );
+    alert( text );
 
 
 });
-
 
 
 
