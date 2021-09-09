@@ -1,3 +1,28 @@
+const name_item = document.querySelector("#text-input");
+
+
+const form = document.querySelector("#pendiente-form");
+
+form.addEventListener("submit",event=>{
+
+    text = name_item.value;
+    alert( "hiciste click en button" );
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 const name_item = document.querySelector("#item-name-input");
 const quantity = document.querySelector("#quantity-input");
 const price = document.querySelector("#price-input");
@@ -77,7 +102,7 @@ form.addEventListener("submit",event=>{
     }
 });
 
-/*
+
 function isAnIndex(index,lenght){
     var ans = false;
     if (index<lenght && index>0){
