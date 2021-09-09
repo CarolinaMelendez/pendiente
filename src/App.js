@@ -6,8 +6,7 @@ const form = document.querySelector("#pendiente-form");
 form.addEventListener("submit",event=>{
     category = "Work"
     text = name_item.value;
-    alert( text );
-
+    alert( text + "  Category:  " + category);
 
 });
 
